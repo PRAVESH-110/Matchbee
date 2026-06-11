@@ -2,6 +2,8 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { ProfilesController } from './profiles.controller';
 
 describe('ProfilesController', () => {
+  // @jest-globals
+  // describe is a global provided by Jest
   let controller: ProfilesController;
 
   beforeEach(async () => {
